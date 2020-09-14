@@ -62,6 +62,9 @@ Like Clover, OpenCore works best with this board using emulated NVRAM. I gave it
 
 I have already enabled the emulation in the config. You will need to [follow the instructions](https://dortania.github.io/OpenCore-Desktop-Guide/post-install/nvram.html?h=logouthook) to complete the setup post-install so values can be written on logout.
 
+## Big Sur (11.0)
+iMac 17,x and iMac 18,x are supported models.
+
 ## Debug Branch
 
 This branch has all logging turned on. It is slower to boot. This branch is where I will be keeping all testing done so as to not interfere with the master branch in case I screw up.
