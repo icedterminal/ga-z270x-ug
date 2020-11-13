@@ -1,4 +1,4 @@
-[OpenCore Guide](https://dortania.github.io/OpenCore-Install-Guide/) | [Version 0.6.2](https://github.com/acidanthera/OpenCorePkg/releases)
+[OpenCore Guide](https://dortania.github.io/OpenCore-Install-Guide/) | [Version 0.6.3](https://github.com/acidanthera/OpenCorePkg/releases)
 
 Currently two issues are present:
 
@@ -64,6 +64,8 @@ I have already enabled the emulation in the config. You will need to [follow the
 
 ## Big Sur (11.0)
 iMac 17,x and iMac 18,x are supported models.
+
+v0.6.3 is required to boot. At the moment I am not updating because there is a DRM bug with WhateverGreen. BigSur broke it. Any isues you have booting will have to be debugged on your own.
 
 ## Debug Branch
 
