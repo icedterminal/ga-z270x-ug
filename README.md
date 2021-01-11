@@ -6,6 +6,7 @@ Currently two issues are present:
     - While SSDT plugin works to a degree, I have tried to debug this issue and am unable to. PRgen does not work at all. Literally generates one state. Dropping CPU SSDT can cause boot failures and introduces a different issue.
 2. PowerNap, Sleep and Hibernate do not function. System goes for this power state and hangs. Powered on but in a frozen state. Does not respond to input. Screen is black.
     - Since CPU can't idle correctly, these are never expected to work.
+    - USB controller affects this feature. Boards with ASMedia, like mine, are not natively supported in macOS. They do function when mapped, but not being able to be natively control with power states prevents macOS from changing states.
 
 This EFI was created using firmware version `F9d`. If you use an older verison, consider upgrading. While in theory it should be fine to use an older version, you never know.
 
@@ -21,6 +22,7 @@ Device | UD3 | UD5 | G5 | G7 | G8 | G9 | GK3 | GK5 | GK7 | UG
 HDMI | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes
 DisplayPort | No | Yes | Yes | Yes | Yes | Yes | No | Yes | Yes | No 
 ThunderBolt | No | Yes | No | Yes | Yes | Yes | No | No | No | No
+USB Controller | ASMedia | Intel | ASMedia | Intel | Intel | Intel | ASMedia | ASMedia | ASMedia | ASMedia 
 Audio | ALC1220 | ALC1220 | ALC1220 | Creative 3D | Creative 3D | Creative 3D | ALC1220 | ACL1220 | ALC1220 | ACL1220
 LAN | Intel | Intel | Intel & Killer | Intel & Killer | Intel & Killer | Killer | Killer | Killer | Intel & Killer | Intel
 WiFi | No | No | No | No | Killer | Killer | No | No | No | No
