@@ -65,7 +65,7 @@ I have already enabled the emulation in the config. You will need to [follow the
 ## Big Sur (11.0)
 iMac 17,x and iMac 18,x are supported models.
 
-v0.6.3 is required to boot. At the moment I am not updating because there is a compatibility problem with WhateverGreen in regards to DRM. Big Sur has many changes. Any isues you have booting will have to be debugged on your own.
+v0.6.3 is required to boot. At the moment I am not updating because there is a compatibility problem with WhateverGreen in regards to [DRM](https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.Chart.md#drm-compatibility-on-macos-11). Big Sur has many changes. Any isues you have booting will have to be debugged on your own.
 
 ## Debug Branch
 
