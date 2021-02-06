@@ -3,6 +3,8 @@ iMac 17,x and iMac 18,x are supported models.
 
 v0.6.3 is required to boot this version. I am not updating and have no intentions to use Big Sur. There are compatibility problems with WhateverGreen in regards to [DRM](https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.Chart.md#drm-compatibility-on-macos-11). Big Sur has many changes. Any isues you have booting Big Sur will have to be debugged on your own. I am sticking with Catalina 10.15 for the forseeable future. My system is stable and just works.
 
+---
+
 [OpenCore Guide](https://dortania.github.io/OpenCore-Install-Guide/) | [Version 0.6.3](https://github.com/acidanthera/OpenCorePkg/releases)
 
 Currently two issues are present:
